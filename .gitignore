@@ -2,6 +2,9 @@
 .env
 .DS_Store
 
-
+/logs/*
+!logs/.gitkeep
+/tmp
+*.swp
 *.pyc
 *.txt
