@@ -12,13 +12,6 @@ body {
 
 }
 
-/* @media (min-width: 768px) {
-  body {
-      font-size: 18px;
-      font-family: 'Cinzel', serif;
-
-  }
-} */
 
 h1 {
   color:white;
@@ -42,19 +35,6 @@ h1 {
   text-align: center;
 }
 
-/* .page-container {
-  max-height: 100vh;
-  overflow-y: auto;
-  padding: 20px;
-} */
-
-/* @media (min-width: 768px) {
-  .page-container {
-    max-height: 100vh;
-    overflow-y: auto;
-    padding: 20px;
-  }
-} */
 
 .song {
   margin-bottom: 30px;
