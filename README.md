@@ -1,1 +1,1 @@
-[# USER_SYNDROME](https://llyda.github.io/USER_SYNDROME/)
+**[USER_SYNDROME](https://llyda.github.io/USER_SYNDROME/)**
