@@ -40,7 +40,6 @@ h1 {
   height: auto;
 }
 
-
 @media (max-width: 768px) {
   .media-container img {
     max-width: 300px;
@@ -49,7 +48,7 @@ h1 {
 
   .media-container iframe {
     max-width: 300px;
-    height: 200px; /* adjust value for smaller screens */
+    height: 200px; /* set the height to value for smaller screens */
   }
 }
 
@@ -60,8 +59,8 @@ h1 {
   }
 
   .media-container iframe {
-    max-width: 600px; /* adjust value for larger screens */
-    height: auto; /* auto to maintain responsiveness */
+    max-width: 600px; /* adjust  width for larger screens */
+    height: 400px; /* set the height to the value for larger screens */
   }
 }
 
