@@ -3,7 +3,7 @@
 
 body {
   font-size: 16px;
-  background-image: url('../images/body.png');
+  background-image: url('../images/body.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -29,7 +29,7 @@ h1 {
   padding: 20px;
   background-color: #fff;
   border-radius: 5px;
-  background-image: url('../images/background.png');
+  background-image: url('../images/background.webp');
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;

@@ -1,0 +1,7 @@
+mkdir -p optimized  # Create a directory for processed images
+
+for file in *.jpg *.png; do
+  if [ -f "$file" ]; then  # Ensure the file exists
+    ffmpeg -i "$file" -map_metadata -1 -q:v 2 "optimized/${file%.*}_optimized.${file##*.}"
+  fi
+done
