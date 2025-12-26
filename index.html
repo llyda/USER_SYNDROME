@@ -1,90 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="public/images/icon.webp" type="image/x-icon">
-    <link rel="stylesheet" title="stylesheet" href="public/css/style.css">
-
-    <title>&nbsp;&nbsp;USER SYNDROME&nbsp;&nbsp;</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="public/images/icon.webp" type="image/x-icon">
+  <link rel="stylesheet" title="stylesheet" href="public/css/style.css">
+  <title>&nbsp;&nbsp;USER SYNDROME&nbsp;&nbsp;</title>
 </head>
+
 <body>
 
   <script>
-    var repeat=1
-    var title=document.title
-    var leng=title.length
-    var start=1
+    var repeat = 1;
+    var title = document.title;
+    var leng = title.length;
+    var start = 1;
+
     function titlemove() {
-      titl=title.substring(start, leng) + title.substring(0, start)
-      document.title=titl
-      start++
-      if (start==leng+1) {
-        start=0
-        if (repeat==0)
-        return
+      var titl = title.substring(start, leng) + title.substring(0, start);
+      document.title = titl;
+      start++;
+      if (start === leng + 1) {
+        start = 0;
+        if (repeat === 0) return;
       }
-      setTimeout("titlemove()",50)
+      setTimeout(titlemove, 50);
     }
-    if (document.title)
-    titlemove()
-    function MM_goToURL() {
-      var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
-      for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
-    }
-    </script>
+
+    if (document.title) titlemove();
+  </script>
+
     <header>
         <h1>USER SYNDROME AKA FRIDjE_zz X Hereo</h1>
-
     </header>
 
     <div class="container">
+        <p>
+          Freya Edmondes and Rhea Dally have been neurologically entwined since 2018, when they started their band ‘GAILVN KEILN’ in Beirut. Since then their research into the expansion of human empathy, offline connectivity, digital chemistry, ‘dysfunctions’, mutating language, resuscitating receptivity within a live stream of sensory overdrive desensitisation that prevent us from refusing to accept everyday injustices such as the inequalities in freedom of movement, freedom of physical participation in the global network.
+        </p>
 
-        <p> Freya Edmondes and Rhea Dally have been neurologically entwined since 2018, when they started their band
-        ‘GAILVN KEILN’ in Beirut. Since then their research into the expansion of human empathy, offline
-        connectivity, digital chemistry, ‘dysfunctions’, mutating language, resuscitating receptivity within a
-        live stream of sensory overdrive desensitisation that prevent us from refusing to accept everyday
-        injustices such as the inequalities in freedom of movement, freedom of physical participation in
-        the global network.</p>
+        <div class="img media-container">
+          <img class="responsive-media" src="public/images/gaivn.webp">
+        </div>
 
-    <div class="img media-container">
-      <img class="responsive-media" src="public/images/imgbyNelLato.webp">
-    </div>
+        <div class="img media-container">
+          <img class="responsive-media" src="public/images/manifest.webp">
+          <figcaption class="card-caption">
+            <h3><a href="https://www.ctm-festival.de/news/ctm-2024-radio-lab-winners-announced" target="_blank" rel="noopener noreferrer">USER SYNDROME WON CTM 2024 RADIO LAB</a></h3>
+          </figcaption>
+        </div>
 
-     <div class="video media-container">
-      <iframe class="responsive-media" src="https://www.youtube.com/embed/qLG9KqHZFro?si=rGvZGvEmViyp0ypD&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <section class="feature media-container">
+          <figure class="card">
+            <img
+              class="responsive-media"
+              src="public/images/User-Syndrome-CTM.webp"
+              alt="IRL: Nachhaltige Klangkunst mit Alltagsgegenständen">
+            <audio
+              class="audio-player"
+              controls
+              preload="none"
+              src="https://download.deutschlandfunk.de/file/dradio/2024/03/15/irl_drk_20240315_0005_ffb8843e.mp3">Your browser does not support the audio element.
+            </audio>
 
-      <iframe class="responsive-media" src="https://www.youtube.com/embed/wDef81Qgo1c?si=DmB1Z1ihTknNC1vZ&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <figcaption class="card-caption">
+              <h3><a href="https://www.hoerspielundfeature.de/irl-nachhaltige-klangkunst-mit-alltagsgegenstaenden-100.html" target="_blank" rel="noopener noreferrer">Hörspiel und Feature USER SYNDROME</a></h3>
+            </figcaption>
+          </figure>
+        </section>
 
-    </div>
+        <figure class="img media-container">
+          <img class="responsive-media" src="public/images/imgbyNelLato.webp">
+          <figcaption class="media-caption">U-jazdowski Castle, Warsaw - photo taken by Nel Lato (2020)</figcaption>
+        </figure>
 
-    <div class="img media-container">
-      <img class="responsive-media" src="public/images/imbyLucyHazard.webp">
-    </div>
+        <div class="video media-container">
+          <iframe class="responsive-media" src="https://www.youtube.com/embed/qLG9KqHZFro?si=rGvZGvEmViyp0ypD&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-    <div class="video media-container">
-      <iframe class="responsive-media" src="https://www.youtube.com/embed/KiBnPoIQeFo?si=lvWR2tNkANUHrhYu&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe class="responsive-media" src="https://www.youtube.com/embed/wDef81Qgo1c?si=DmB1Z1ihTknNC1vZ&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
 
-      <iframe class="responsive-media" src="https://www.youtube.com/embed/LCtr9Eb_c8M?si=pzdDa5YCHCUg_Yw&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <figure class="img media-container">
+          <img class="responsive-media" src="public/images/imbyLucyHazard.webp"><figcaption class="media-caption">Edge of Wrong, Cape Town - photo taken by Lucy Hazard (2018)</figcaption>
+        </figure>
 
-    </div>
+        <div class="video media-container">
+          <iframe class="responsive-media" src="https://www.youtube.com/embed/KiBnPoIQeFo?si=lvWR2tNkANUHrhYu&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          <iframe class="responsive-media" src="https://www.youtube.com/embed/LCtr9Eb_c8M?si=pzdDa5YCHCUg_Yw&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
         <div class="song">
-
-          <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/397400661&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/gaivlnkeiln" title="GAIVLN KEILN" target="_blank" style="color: #cccccc; text-decoration: none;">GAIVLN KEILN</a> · <a href="https://soundcloud.com/gaivlnkeiln/lonlely" title="I Was Doped Out Babe" target="_blank" style="color: #cccccc; text-decoration: none;">I Was Doped Out Babe</a></div>
-
-          <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/397812126&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/gaivlnkeiln" title="GAIVLN KEILN" target="_blank" style="color: #cccccc; text-decoration: none;">GAIVLN KEILN</a> · <a href="https://soundcloud.com/gaivlnkeiln/ill-bred-sunview" title="Ill-Bred Sunview" target="_blank" style="color: #cccccc; text-decoration: none;">Ill-Bred Sunview</a></div>
-
-          <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/389458368&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/gaivlnkeiln" title="GAIVLN KEILN" target="_blank" style="color: #cccccc; text-decoration: none;">GAIVLN KEILN</a> · <a href="https://soundcloud.com/gaivlnkeiln/i-was-doped-out-babe" title="LONLEY" target="_blank" style="color: #cccccc; text-decoration: none;">LONLEY</a></div>
-
-          <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/397736931&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/gaivlnkeiln" title="GAIVLN KEILN" target="_blank" style="color: #cccccc; text-decoration: none;">GAIVLN KEILN</a> · <a href="https://soundcloud.com/gaivlnkeiln/tom" title="Tom" target="_blank" style="color: #cccccc; text-decoration: none;">Tom</a></div>
-
+          <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/397400661&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+          <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+            <a href="https://soundcloud.com/gaivlnkeiln" title="GAIVLN KEILN" target="_blank" style="color: #cccccc; text-decoration: none;">GAIVLN KEILN</a> ·
+            <a href="https://soundcloud.com/gaivlnkeiln/lonlely" title="I Was Doped Out Babe" target="_blank" style="color: #cccccc; text-decoration: none;">I Was Doped Out Babe</a>
+          </div>
+          <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/397812126&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+          <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+            <a href="https://soundcloud.com/gaivlnkeiln" title="GAIVLN KEILN" target="_blank" style="color: #cccccc; text-decoration: none;">GAIVLN KEILN</a> ·
+            <a href="https://soundcloud.com/gaivlnkeiln/ill-bred-sunview" title="Ill-Bred Sunview" target="_blank" style="color: #cccccc; text-decoration: none;">Ill-Bred Sunview</a>
+          </div>
+          <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/389458368&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+          <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+            <a href="https://soundcloud.com/gaivlnkeiln" title="GAIVLN KEILN" target="_blank" style="color: #cccccc; text-decoration: none;">GAIVLN KEILN</a> ·
+            <a href="https://soundcloud.com/gaivlnkeiln/i-was-doped-out-babe" title="LONLEY" target="_blank" style="color: #cccccc; text-decoration: none;">LONLEY</a>
+          </div>
+          <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/397736931&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+          <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+            <a href="https://soundcloud.com/gaivlnkeiln" title="GAIVLN KEILN" target="_blank" style="color: #cccccc; text-decoration: none;">GAIVLN KEILN</a> ·
+            <a href="https://soundcloud.com/gaivlnkeiln/tom" title="Tom" target="_blank" style="color: #cccccc; text-decoration: none;">Tom</a>
+          </div>
+        </div>
+        <p class="contact"><a href="mailto:gaivlnkeiln@gmail.com">gaivlnkeiln@gmail.com</a></p>
       </div>
-
-      <p1><a href="mailto:gaivlnkeiln@gmail.com">gaivlnkeiln@gmail.com</a></p1>
-
-    </div>
-
 </body>
 </html>
