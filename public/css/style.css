@@ -89,25 +89,17 @@ p  {
 
 }
 
-
-.audio-player {
-  width: 100%;
-  max-width: 600px;
-  display: block;
-  margin: 0 auto;
-}
-
 .card-caption h3 a,
 .card-caption h3 a:visited {
-  color: blue;
+  color: white;
   text-decoration: underline;
-  background-color: white;
+  background-color: blue;
 }
 
 .card-caption h3 a:hover,
 .card-caption h3 a:focus {
   color: blue;
-  background-color: black;
+  background-color: white;
 }
 
 p.contact {
